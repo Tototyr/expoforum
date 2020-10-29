@@ -1,0 +1,157 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+    font-family: "Proxima Nova Rg", sans-serif;
+}
+
+*, ::after, ::before {
+     box-sizing: border-box;
+ }
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1140px;
+}
+
+@media (min-width: 768px){
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (max-width: 768px){
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1500px){
+    .container {
+        max-width: 1370px;
+    }
+}
+
+.text {
+    font-family: "Proxima Nova Rg";
+    font-style: normal;
+    font-weight: normal;
+}
+
+.text--xs {
+    font-size: 18px;
+}
+
+.text--s {
+    font-size: 20px;
+}
+
+.text--m {
+    font-size: 26px;
+}
+
+.text--l {
+    font-size: 35px;
+}
+
+.text--xxl {
+    font-size: 80px;
+}
+
+.text--xl {
+    font-size: 40px;
+}
+
+.text--clear {
+    color: rgba(255, 255, 255, 0.3);s
+}
+
+.text--ghost {
+    color: #BDBDBD;
+}
+
+.text--brand {
+    background: linear-gradient(232.83deg, #2DB7E6 42.39%, #38EBCB 85.06%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #38EBCB;
+
+}
+
+.text--dirt {
+    color: #4F4F4F;
+}
+
+.text--inverse {
+    color: #fff;
+}
+
+.text--low-danger {
+    color: #FA4884;
+}
+
+.text--sky {
+    color: #2EB8E6;
+}
+
+.button {
+    font-family: ProximaNovaRegular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+}
+
+.button--danger {
+    background: linear-gradient(0deg, #FA4884, #FA4884);
+}
+
+.button--xs {
+    width: 196px;
+    height: 50px;
+}
+
+.button--s {
+    width: 250px;
+    height: 50px;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.button--success {
+    background: linear-gradient(0deg, #38EBCB, #38EBCB);
+}
+
+.button--ghost {
+    background: linear-gradient(187.07deg, #2DB7E6 43.88%, #38EBCB 107.05%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

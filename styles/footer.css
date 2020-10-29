@@ -1,0 +1,60 @@
+.footer {
+    background: linear-gradient(204.84deg, #2DB7E6 43.88%, #38EBCB 107.05%);
+    content: "";
+    width: 100%;
+    height: 514px;
+    z-index: -1;
+    display: block;
+
+}
+
+.footer__wrapper {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer__social {
+    padding-bottom: 100px;
+}
+
+.footer__list {
+    list-style: none;
+
+}
+
+.footer__item  {
+    padding-top: 25px;
+}
+
+.footer__contact-number {
+    padding-top: 30px;
+}
+
+.footer__contact-email {
+    padding-top: 10px;
+}
+
+.footer__contact-button {
+    margin-top: 30px;
+    border: 1px solid #FFFFFF;
+    background: none;
+}
+
+.footer__social {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 80px;
+    padding-right: 50px;
+}
+
+.footer-social__link {
+    padding-right: 50px;
+}
+
+.footer-social__link :last-child {
+    padding-right: 0;
+}
