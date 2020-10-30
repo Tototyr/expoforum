@@ -1,0 +1,46 @@
+
+
+.course-social__hashtag {
+
+}
+
+.course-social__title  {
+    margin-bottom: 15px;
+}
+
+.course-social__item {
+    display: flex;
+    flex-direction: row;
+    padding-top: 85px;
+}
+
+.social__item {
+    padding-right: 20px;
+}
+
+
+.social__item:last-child {
+    padding-right: 0px;
+}
+
+.course-social {
+    position: relative;
+    margin-bottom: 170px;
+}
+
+.course-social:before {
+    background: url(../image/circles8.png) no-repeat;
+    width: 2720.6px;
+    height: 1118.3px;
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background: url(../image/circles8.png) no-repeat;
+    width: 2720.6px;
+    height: 1118.3px;
+    content: "";
+    position: absolute;
+    z-index: -2;
+    top: -104%;
+    left: -24%;
+}

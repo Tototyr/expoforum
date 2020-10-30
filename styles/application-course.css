@@ -1,0 +1,87 @@
+
+
+.application-course__card {
+    background: #FFFFFF;
+    box-shadow: 0px 3.18519px 12.7407px rgba(0, 0, 0, 0.12);
+    border-radius: 19.9074px;
+    flex: 0 0 33.333333%;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 60px;
+    margin-bottom: 130px;
+
+}
+
+.application-course {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.application-course__form {
+    position: relative;
+}
+
+
+.application-course__card-text {
+    width: 500px;
+    padding: 20px 0 50px 0;
+}
+
+.application-course__image {
+    z-index: 1;
+    transform: rotate(0deg);
+    position: absolute;
+    top: -53px;
+    left: 560px;
+}
+
+.application-course__card-title {
+    padding-top: 50px;
+}
+
+
+.application-course__form-input {
+    border: 1px solid #E0E0E0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 420px;
+    height: 50px;
+    margin-bottom: 30px;
+    padding-left: 15px;
+    position: relative;
+    background-color: transparent;
+    transition: 0.4s;
+    outline: none;
+
+}
+
+.application-course__form-input:focus ~ .application-course__form-label {
+    top: -15px;
+    font-size: 15px;
+
+}
+
+.application-course__form-checkbox--cloudy {
+    color: #BDBDBD;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: bold;
+}
+
+
+.application-course-button {
+    margin: 40px 0 70px 0;
+}
+
+.application-course__form-label {
+    position: absolute;
+    top: 16px;
+    right: 90%;
+    z-index: -1;
+    transition: 0.4s;
+}
+

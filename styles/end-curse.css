@@ -1,0 +1,32 @@
+
+
+.end-course {
+    padding-top: 100px;
+    margin-bottom: 150px;
+    position: relative;
+}
+
+
+
+.end-course__list {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+}
+
+.end-course__list-item {
+    display: flex;
+    width: 33%;
+    padding: 10px;
+    box-sizing: border-box;
+    align-items: start;
+}
+
+.end-course__counter {
+    margin-right: 10px;
+}
+
+.end-course__counter:hover {
+    color: #FFFFFF;
+    cursor: pointer;
+}
